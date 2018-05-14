@@ -21,12 +21,21 @@ function viewCart() {
   }
   else {
     var sentence = "In your cart, you have "
-      for (var i = 0, l = cart.length)
+      for (var i = 0, l = cart.length; i <l; i++) {
+        
+      }
     
   }
 }
 
+function theBeatlesPlay(musicians, instruments) {
+  const arr = []
 
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    arr.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+
+  return arr
 +function viewCart (){
 +if(cart.length === 0){
 +  console.log(`Your shopping cart is empty.`)
