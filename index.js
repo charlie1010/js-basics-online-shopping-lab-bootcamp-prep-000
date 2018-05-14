@@ -24,11 +24,13 @@ function viewCart() {
     for (var i = 0, l = cart.length; i <l; i++) {
       sentence += `${cart[i]["itemName"]} at $${cart[i]["itemPrice"]}`
       if (cart.length > 1) {
-      sentence += ", "
-      }  
-      if () {
+        sentence += ", "
+       if (i===cart.length-1) {
+         sentence +=
         
-      }
+        }
+      }  
+     
     }
     return sentence+="."
   }
