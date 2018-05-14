@@ -20,6 +20,8 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   else {
+    var sentence = "In your cart, you have "
+      for (var i = 0, l = cart.length)
     
   }
 }
@@ -30,6 +32,8 @@ function viewCart() {
 +  console.log(`Your shopping cart is empty.`)
 +}
 +else{
+  
+  
 +      var myString = "In your cart, you have "
 +
 +        for(var i = 0, l = cart.length; i < l; i++){
