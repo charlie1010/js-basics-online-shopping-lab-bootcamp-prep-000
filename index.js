@@ -31,3 +31,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+
+function updateObjectWithKeyAndValue(object, key, value) {
+  return Object.assign({}, object, { [key]: value })
