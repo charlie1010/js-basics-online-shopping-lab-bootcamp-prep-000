@@ -35,7 +35,7 @@ function viewCart() {
 }
 
 function total() {
-  
+  parseInt(${cart[i]["itemPrice)
 }
 
 function removeFromCart(item) {
