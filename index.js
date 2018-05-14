@@ -25,7 +25,7 @@ function viewCart() {
       sentence += `${cart[i]["itemName"]} at $${cart[i]["itemPrice"]}`
       if (cart.length > 1) {
         sentence += ", "
-       if (i===cart.length-2) {
+       if (i===cart.length-1) {
          sentence += ", and "
         }
       }
