@@ -29,6 +29,7 @@ function viewCart() {
       }
     }
     return sentence+="."
+  }
 }
 
 // standard string append
