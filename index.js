@@ -21,13 +21,13 @@ function viewCart() {
   }
   else {
     var sentence = "In your cart, you have "
-      for (var i = 0, l = cart.length; i <l; i++) {
-      } if (i===1) {
+    for (var i = 0, l = cart.length; i <l; i++) {
+      if (i===1) {
         
       } else {
         
       }
-    return sentence+="."
+      return sentence+="."
   }
 }
 
