@@ -24,7 +24,7 @@ function viewCart() {
       for (var i = 0, l = cart.length; i <l; i++) {
         
       } if (i===1) {
-        return "In your cart, you have lemons at $25."
+        return sentence+= cart[1]
         
       } else {
         return sentence+="."
