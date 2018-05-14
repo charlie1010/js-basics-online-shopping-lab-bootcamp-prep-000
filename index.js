@@ -24,7 +24,7 @@ function viewCart() {
       for (var i = 0, l = cart.length; i <l; i++) {
         
       } if (i===2) {
-        return sentence+= " ${cart[ "
+        return (sentence+= ` ${cart[1]`, `${cart[2]` )
       } else {
         return sentence+="."
       }
