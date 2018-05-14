@@ -20,6 +20,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   else {
+    console.log("HELLO")
     var sentence = "In your cart, you have "
     for (var i = 0, l = cart.length; i <l; i++) {
       //sentence += `${cart[]} at $${
