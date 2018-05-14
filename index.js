@@ -16,16 +16,13 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  console.log("HELLO")
   if(cart.length === 0) {
     return "Your shopping cart is empty."
   }
   else {
-    console.log("HELLO")
     var sentence = "In your cart, you have "
     for (var i = 0, l = cart.length; i <l; i++) {
-      //sentence += `${cart[]} at $${
-      console.log(cart[])
+      sentence += `${cart[i]} at $${
       if (cart.length === 1) {
         
       } else {
