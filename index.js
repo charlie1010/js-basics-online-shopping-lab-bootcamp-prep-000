@@ -29,7 +29,7 @@ function viewCart() {
       if (i===cart.length-2) {
          sentence += "and "
       }
-      if (cart.length>1 && i!== cart.length) {
+      if (!== cart.length) {
          sentence
       }
     }
