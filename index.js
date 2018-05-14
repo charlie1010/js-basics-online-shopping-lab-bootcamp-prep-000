@@ -23,8 +23,9 @@ function viewCart() {
     var sentence = "In your cart, you have "
       for (var i = 0, l = cart.length; i <l; i++) {
         
-      } if (i===2) {
-        return (sentence+= ` ${cart[1]`, `${cart[2]` )
+      } if (i===1) {
+        return sentence+= cart[1]
+        
       } else {
         return sentence+="."
       }
