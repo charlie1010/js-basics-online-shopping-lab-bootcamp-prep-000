@@ -29,9 +29,6 @@ function viewCart() {
       if (i===cart.length-2) {
          sentence += "and "
       }
-      if (i===cart.length) {
-         sentence
-      }
     }
     return sentence+="."
   }
