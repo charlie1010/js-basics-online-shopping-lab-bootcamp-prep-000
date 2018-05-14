@@ -25,19 +25,13 @@ function viewCart() {
       sentence += `${cart[i]["itemName"]} at $${cart[i]["itemPrice"]}`
       if (cart.length > 1) {
         sentence += ", "
-       }
        if (i===cart.length-1) {
          sentence += ", and "
         }
+      }
     }
     return sentence+="."
   }
-}
-
-// standard string append
-var str = "";
-for (var i = 30000; i > 0; i--) {
-	str += "String concatenation. ";
 }
 
 function total() {
