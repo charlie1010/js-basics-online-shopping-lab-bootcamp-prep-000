@@ -25,7 +25,7 @@ function viewCart() {
     var sentence = "In your cart, you have "
     for (var i = 0, l = cart.length; i <l; i++) {
       //sentence += `${cart[]} at $${
-      console.log(cart[i])
+      console.log(cart[])
       if (cart.length === 1) {
         
       } else {
