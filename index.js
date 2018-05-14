@@ -24,7 +24,7 @@ function viewCart() {
       for (var i = 0, l = cart.length; i <l; i++) {
         
       } if (i===1) {
-        return sentence+= cart[i]
+        return 
         
       } else {
         return sentence+="."
