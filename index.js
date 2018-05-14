@@ -22,41 +22,15 @@ function viewCart() {
   else {
     var sentence = "In your cart, you have "
       for (var i = 0, l = cart.length; i <l; i++) {
-        sentence.push(`${cart[i]} at $${`)
+        sentence.push(`${cart[i]} at $${price}`)
+      } if (i!==cart.length-1) {
+        return sentence+= ", "
+      } else {
+        return sentence+="."
       }
     
   }
 }
-
-function theBeatlesPlay(musicians, instruments) {
-  const arr = []
-
-  for (let i = 0, l = musicians.length; i < l; i++) {
-    arr.push(`${musicians[i]} plays ${instruments[i]}`)
-  }
-
-  return arr
-+function viewCart (){
-+if(cart.length === 0){
-+  console.log(`Your shopping cart is empty.`)
-+}
-+else{
-  
-  
-+      var myString = "In your cart, you have "
-+
-+        for(var i = 0, l = cart.length; i < l; i++){
-+            for(var list in cart[i]){
-+            myString+=`${list} at $${cart[i][list]}`
-+                if(i!==cart.length-1){
-+                  myString+=", "
-+                }
-+                else{
-+                  myString+="."
-+                }
-+              }
-+
-+            }
 
 
 function total() {
