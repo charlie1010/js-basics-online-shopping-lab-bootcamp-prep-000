@@ -27,8 +27,8 @@ function viewCart() {
       } else {
         
       }
-      return sentence+="."
-  }
+    }
+    return sentence+="."
 }
 
 // standard string append
