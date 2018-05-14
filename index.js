@@ -10,8 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var price = Math.floor(Math.random()*99)
-  cart.push(new Object({[item]:price}))
+  var itemPrice = Math.floor(Math.random()*100)
+  cart.push(new Object({[itemName]:itemPrice}))
   console.log(`${item} has been added to your cart.`)
 }
 
