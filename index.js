@@ -16,8 +16,35 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  if(cart.length === 0) {
+    return "Your shopping cart is empty."
+  }
+  else {
+    
+  }
 }
+
+
++function viewCart (){
++if(cart.length === 0){
++  console.log(`Your shopping cart is empty.`)
++}
++else{
++      var myString = "In your cart, you have "
++
++        for(var i = 0, l = cart.length; i < l; i++){
++            for(var list in cart[i]){
++            myString+=`${list} at $${cart[i][list]}`
++                if(i!==cart.length-1){
++                  myString+=", "
++                }
++                else{
++                  myString+="."
++                }
++              }
++
++            }
+
 
 function total() {
   // write your code here
