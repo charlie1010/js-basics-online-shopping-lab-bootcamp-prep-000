@@ -33,6 +33,11 @@ function viewCart() {
   }
 }
 
+// standard string append
+var str = "";
+for (var i = 30000; i > 0; i--) {
+	str += "String concatenation. ";
+}
 
 function total() {
   // write your code here
