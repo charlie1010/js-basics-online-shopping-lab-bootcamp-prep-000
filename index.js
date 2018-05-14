@@ -25,9 +25,9 @@ function viewCart() {
       } if (i===1) {
         
       } else {
-        return sentence+="."
+        
       }
-    
+    return sentence+="."
   }
 }
 
