@@ -35,8 +35,7 @@ function viewCart() {
 }
 
 function total() {
-  for (var i = 0, l = cart.length; i <l; i++) {
-      sentence += `${cart[i]["itemName"]} at $${cart[i]["itemPrice"]}`
+  
 }
 
 function removeFromCart(item) {
