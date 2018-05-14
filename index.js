@@ -27,7 +27,7 @@ function viewCart() {
         sentence += ", "
       }
       if (i===cart.length-2) {
-         sentence += "and "
+         "and "+sentence 
       }
     }
     return sentence+="."
